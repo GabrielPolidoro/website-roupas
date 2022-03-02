@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(252, 241, 252);
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+/***** HEADER *****/
+
+header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+header h1{ 
+    color: rgb(132, 13, 201);
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    color: rgb(132, 13, 201);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 70px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+
+/***** SECTION - SEASON *****/
+
+.season{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    background-color: rgb(248, 248, 108);
+    color: rgb(219, 90, 111);
+    margin-bottom: 10px;
+    
+}
+
+
+/***** SECTION - HANDBAGS *****/
+
+.handbags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.handbag-01{
+    flex: 1;
+    background-image: url('../images/bag-peq01.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    max-width: 325px;
+    border: 1px solid #ccc;
+}
+
+.handbag-01:hover{
+    flex: 1;
+    background-image: url('../images/bag-peq01.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    max-width: 325px;
+    transition: 0.9s;
+    
+}
+
+.handbag-02{
+    flex: 1;
+    background-image: url('../images/bag-peq02.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    max-width: 325px;
+    border: 1px solid #ccc;
+}
+
+.handbag-02:hover{
+    flex: 1;
+    background-image: url('../images/bag-peq02.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    max-width: 325px;
+    transition: 0.9s;
+}
+
+.handbag-03{
+    flex: 1;
+    background-image: url('../images/bag-peq03.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    max-width: 325px;
+    border: 1px solid #ccc;
+}
+
+.handbag-03:hover{
+    flex: 1;
+    background-image: url('../images/bag-peq03.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    max-width: 325px;
+    transition: 0.9s;
+    
+}
+
+.handbag-04{
+    flex: 1;
+    background-image: url('../images/bag-peq04.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    max-width: 325px;
+    border: 1px solid #ccc;
+}
+
+.handbag-04:hover{
+    flex: 1;
+    background-image: url('../images/bag-peq04.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    max-width: 325px;
+    transition: 0.9s;
+    
+}
+
+/***** SECTION - PRICES *****/
+
+.prices{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    font-weight: bold;
+}
+
+.price-01{
+    text-align: center;
+}
+
+.price-02{
+    text-align: center;
+}
+
+.price-03{
+    text-align: center;
+}
+
+.price-04{
+    text-align: center;
+}
+
+.prices p{
+    text-align: center;
+    max-width: 300px;
+}
+
+.price-btn{
+    display: inline-block;
+    background-color: rgb(219, 90, 111);
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: #fff;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+
+/***** SECTION - INFO *****/
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.info p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+span{
+    color: red;
+}
+
+.free-shipping img{ 
+    width: 150px;
+    height: 90px;
+}
+
+
+/***** SECTION - HANDBAGS - 02 *****/
+
+.handbag-05{
+    flex: 1;
+    background-image: url('../images/bag-peq05.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    max-width: 325px;
+    border: 1px solid #ccc;
+}
+
+.handbag-05:hover{
+    flex: 1;
+    background-image: url('../images/bag-peq05.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    max-width: 325px;
+    transition: 0.9s;
+    
+}
+
+.handbag-06{
+    flex: 1;
+    background-image: url('../images/bag-peq06.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    max-width: 325px;
+    border: 1px solid #ccc;
+}
+
+.handbag-06:hover{
+    flex: 1;
+    background-image: url('../images/bag-peq06.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    max-width: 325px;
+    transition: 0.9s;
+}
+
+.handbag-07{
+    flex: 1;
+    background-image: url('../images/bag-peq07.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    max-width: 325px;
+    border: 1px solid #ccc;
+}
+
+.handbag-07:hover{
+    flex: 1;
+    background-image: url('../images/bag-peq07.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    max-width: 325px;
+    transition: 0.9s;
+    
+}
+
+.handbag-08{
+    flex: 1;
+    background-image: url('../images/bag-peq08.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    max-width: 325px;
+    border: 1px solid #ccc;
+}
+
+.handbag-08:hover{
+    flex: 1;
+    background-image: url('../images/bag-peq08.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    max-width: 325px;
+    transition: 0.9s;
+    
+}
+
+
+
+
+/***** FOOTER *****/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-color:  rgb(132, 13, 201);
+    color: #fff;
+    height: 250px;
+}
+
+.footer-01{
+    text-align: center;
+    line-height: 50px;
+}
+
+.logo-bottom{
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 35px;
+}
+
+.logo-bottom a:visited{
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 35px;
+    color: #fff;
+}
+
+.footer-01 p{
+    font-size: 18px;
+}
+
+.footer-02{
+    text-align: center;
+    line-height: 40px;
+    padding-top: 20px;
+}
+
+.me{
+    font-size: 10px;
+}

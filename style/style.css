@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: rgb(252, 241, 252);
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+/***** HEADER *****/
+
+header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+header h1{ 
+    color: rgb(132, 13, 201);  
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    color: rgb(132, 13, 201);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 70px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+
+/***** SECTION - TITLE *****/
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    background-color: rgb(132, 13, 201);
+    color: #fff;    
+}
+
+
+/***** SECTION - DRESSES *****/
+
+.dresses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.dress-01{
+    flex: 1;
+    background-image: url('../images/vest-peq01.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    max-width: 650px;
+    border: 1px solid #ccc;
+}
+
+.dress-01:hover{
+    flex: 1;
+    background-image: url('../images/vest-peq01.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+    max-width: 650px;
+    transition: 0.9s;
+    
+}
+
+.dress-02{
+    flex: 1;
+    background-image: url('../images/vest-peq02.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    max-width: 650px;
+    border: 1px solid #ccc;
+}
+
+.dress-02:hover{
+    flex: 1;
+    background-image: url('../images/vest-peq02.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+    max-width: 650px;
+    transition: 0.9s;
+}
+
+
+/***** SECTION - PRICES *****/
+
+.prices{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.price-01{
+    text-align: center;
+}
+
+.price-02{
+    text-align: center;
+}
+
+.prices p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.price-btn{
+    display: inline-block;
+    background-color: rgb(219, 90, 111);
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: #fff;
+    margin: 10px;
+}
+
+
+/***** SECTION - BUTTON *****/
+
+.btn{
+    text-align: center;
+    margin-top: 70px;
+    padding-bottom: 150px;
+}
+
+.button{
+    background-color: rgb(132, 13, 201);
+    border-radius: 30px;
+    padding: 10px 70px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.button:hover{
+    opacity: 0.7;
+    border-radius: 30px;
+    padding: 10px 70px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/***** SECTION - SHIRTS *****/
+
+.shirts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.shirt-01{
+    flex: 1;
+    background-image: url('../images/shirt-peq01.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    max-width: 650px;
+    border: 1px solid #ccc;
+}
+
+.shirt-01:hover{
+    flex: 1;
+    background-image: url('../images/shirt-peq01.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+    max-width: 650px;
+    transition: 0.9s;
+    
+}
+
+.shirt-02{
+    flex: 1;
+    background-image: url('../images/shirt-peq02.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    max-width: 650px;
+    border: 1px solid #ccc;
+}
+
+.shirt-02:hover{
+    flex: 1;
+    background-image: url('../images/shirt-peq02.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+    max-width: 650px;
+    transition: 0.9s;
+}
+
+
+/***** SECTION - TROUSERS *****/
+
+.trousers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.trouser-01{
+    flex: 1;
+    background-image: url('../images/trouser-peq01.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    max-width: 650px;
+    border: 1px solid #ccc;
+}
+
+.trouser-01:hover{
+    flex: 1;
+    background-image: url('../images/trouser-peq01.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+    max-width: 650px;
+    transition: 0.9s;
+    
+}
+
+.trouser-02{
+    flex: 1;
+    background-image: url('../images/trouser-peq02.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    max-width: 650px;
+    border: 1px solid #ccc;
+}
+
+.trouser-02:hover{
+    flex: 1;
+    background-image: url('../images/trouser-peq02.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+    max-width: 650px;
+    transition: 0.9s;
+}
+
+
+/***** SECTION - HANDBAGS *****/
+
+.handbags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.bag-01{
+    flex: 1;
+    background-image: url('../images/bag-peq01.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    max-width: 650px;
+    border: 1px solid #ccc;
+}
+
+.bag-01:hover{
+    flex: 1;
+    background-image: url('../images/bag-peq01.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+    max-width: 650px;
+    transition: 0.9s;
+    
+}
+
+.bag-02{
+    flex: 1;
+    background-image: url('../images/bag-peq02.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    max-width: 650px;
+    border: 1px solid #ccc;
+}
+
+.bag-02:hover{
+    flex: 1;
+    background-image: url('../images/bag-peq02.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 680px;
+    max-width: 650px;
+    transition: 0.9s;
+}
+
+
+/***** CONTACT *****/
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.left{
+    flex: 1;
+    background-image: url('../images/bg-contact.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: auto;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text{
+    padding-bottom: 100px;
+}
+
+.text-1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(132, 13, 201);
+    text-transform: uppercase;
+    margin-top: -100px;
+    margin-bottom: 30px;
+}
+
+.text-2{
+    font-weight: bolder;
+    color: rgb(132, 13, 201);
+}
+
+
+.button-contact{
+    border-radius: 30px;
+    padding: 10px 70px;
+    text-decoration: none;
+    border: 2px solid rgb(132, 13, 201);
+    color: rgb(132, 13, 201);
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-contact:hover{
+    background-color: rgb(132, 13, 201);
+    border-radius: 30px;
+    padding: 10px 70px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+/***** FOOTER *****/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-color:  rgb(132, 13, 201);
+    color: #fff;
+    height: 250px;
+}
+
+.footer-01{
+    text-align: center;
+    line-height: 50px;
+}
+
+.logo-bottom{
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 35px;
+}
+
+.logo-bottom a:visited{
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 35px;
+    color: #fff;
+}
+
+.footer-01 p{
+    font-size: 18px;
+}
+
+.footer-02{
+    text-align: center;
+    line-height: 40px;
+    padding-top: 20px;
+}
+
+.me{
+    font-size: 10px;
+}
